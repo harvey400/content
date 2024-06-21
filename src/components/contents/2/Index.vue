@@ -66,6 +66,16 @@
                 <img  class="flower" src="/2/flower.png" height="100" width="100">
             </div>
         </div>
+        <div class="h-20">
+        </div>
+        <div class="h-72">            
+            <div style="width:100%" class="flex justify-around">
+                <span></span>
+                <img  class="flower" src="/2/kimkim.png" height="150" width="150">
+                <img  class="flower" src="/2/covida.png" height="150" width="150">
+                <span></span>
+            </div>
+        </div>
         <div class="h-72">
         </div>
     </div>
