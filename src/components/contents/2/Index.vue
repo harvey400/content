@@ -43,32 +43,7 @@
         </div>
         <div class="h-72">
         </div>
-        <div class="h-72">
-            <div style="width:100%" class="flex justify-around">
-                <img  class="flower" src="/2/flower.png" height="100" width="100">
-                <img  class="flower" src="/2/flower.png" height="100" width="100">
-            </div>
-            <div style="width:100%" class="flex justify-around">
-                <img  class="flower" src="/2/flower.png" height="100" width="100">
-                <img  class="flower" src="/2/flower.png" height="100" width="100">
-            </div>
-            <div style="width:100%" class="flex justify-around">
-                <img  class="flower" src="/2/flower.png" height="100" width="100">
-                <img  class="flower" src="/2/flower.png" height="100" width="100">
-            </div>
-            <div style="width:100%" class="flex justify-around">
-                <span></span>
-                <img  class="flower" src="/2/flower.png" height="100" width="100">
-                <img  class="flower" src="/2/flower.png" height="100" width="100">
-                <span></span>
-            </div>
-            <div style="width:100%" class="flex justify-around">
-                <img  class="flower" src="/2/flower.png" height="100" width="100">
-            </div>
-        </div>
-        <div class="h-20">
-        </div>
-        <div class="h-72">            
+        <div class="h-52">            
             <div style="width:100%" class="flex justify-around">
                 <span></span>
                 <img  class="flower" src="/2/kimkim.png" height="150" width="150">
@@ -77,13 +52,35 @@
             </div>
         </div>
         <div class="h-72">
+            <div style="width:100%" class="flex justify-around">
+                <img  class="flower" src="/2/flower.png" height="100" width="100">
+                <img  class="flower" src="/2/flower.png" height="100" width="100">
+            </div>
+            <div style="width:100%" class="flex justify-around">
+                <img  class="flower" src="/2/flower.png" height="100" width="100">
+                <img  class="flower" src="/2/flower.png" height="100" width="100">
+            </div>
+            <div style="width:100%" class="flex justify-around">
+                <img  class="flower" src="/2/flower.png" height="100" width="100">
+                <img  class="flower" src="/2/flower.png" height="100" width="100">
+            </div>
+            <div style="width:100%" class="flex justify-around">
+                <span></span>
+                <img  class="flower" src="/2/flower.png" height="100" width="100">
+                <img  class="flower" src="/2/flower.png" height="100" width="100">
+                <span></span>
+            </div>
+            <div style="width:100%" class="flex justify-around">
+                <img  class="flower" src="/2/flower.png" height="100" width="100">
+            </div>
+        </div>
+        <div class="h-52">
         </div>
     </div>
 </template>
 <script>
     export default {
         setup() {
-            console.log("sss");
         }
     }
 </script>
@@ -97,7 +94,7 @@ body{
 
 .flower{
     animation-name: spin;
-    animation-duration: 5000ms;
+    animation-duration: 8000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
